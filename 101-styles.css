@@ -1,0 +1,47 @@
+/* Adding animations to the "What we do..." and "Our results" sections */
+
+/* Scale on hover animation */
+.service:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  
+  .result:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+  }
+  
+  /* Bounce animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .service {
+    /* Add other styles */
+  
+    /* Apply bounce animation */
+    animation: bounce 1s infinite;
+  }
+  
+  .result {
+    /* Add other styles */
+  
+    /* Apply bounce animation */
+    animation: bounce 1s infinite;
+  }
+  
+  /* Rotation animation */
+  .rotate {
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
