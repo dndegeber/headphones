@@ -1,0 +1,46 @@
+/* Resetting some default styles */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Setting a basic font */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-image: url('path/to/your/background-image.jpg'); /* Provide the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to contrast with background */
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .header__title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .header__subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .header__button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
